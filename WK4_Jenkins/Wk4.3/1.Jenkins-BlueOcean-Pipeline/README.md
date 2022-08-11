@@ -72,4 +72,4 @@ If you use standard Jenkins installation, rather than the image `jenkinsci/blueo
 
 8. Update your Jenkins file and observe how that changes your pipeline deployment behaviour.
 
-    Refer to these Jenkinsfile examples to update your config: <https://github.com/JiangRenDevOps/DevOpsLectureNotesV6/tree/master/Wk4.3/1.Jenkins-BlueOcaen-Pipeline/Pipeline-examples>
+    Refer to these Jenkinsfile examples to update your config: <https://github.com/JiangRenDevOps/DevOpsNotes/tree/master/WK4_Jenkins/Wk4.3/1.Jenkins-BlueOcean-Pipeline/Pipeline-examples>
