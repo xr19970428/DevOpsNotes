@@ -150,6 +150,14 @@ To                         Action      From
 22 (v6)                    ALLOW       Anywhere (v6)
 ```
 
+## Azure Network Security Group Setting
+
+By default you will have Azure NSG to protect your network connections to and from your VM. The NSG is a white/black list to allow or deny some traffic by rules.
+
+To secure your VM, please set up the NSG rules as below:
+
+![Alt text](images/az-nsg.png)
+
 ## Jenkins Setup
 
 Continue in a Web browser to complete the new Jenkins installation. Type your domain or IP address in address bar, then type port ``http://<your_ip_or_hostname>:8080``, and then a screen similar to the following will appear:
