@@ -13,6 +13,14 @@ Now let's try to build a Docker image and deploy it to your machine.
 
 Please follow this official doc: https://docs.docker.com/engine/install/ubuntu/#installation-methods
 
+The user jenkins needs to be added to the group docker:
+
+```bash
+sudo usermod -a -G docker jenkins
+```
+
+Then you may also need to restart your Jenkins: {jenkins_url}\restart
+
 ## Docker Image Build Pipeline
 
 ```Groovy
