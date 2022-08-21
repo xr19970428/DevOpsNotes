@@ -9,6 +9,10 @@ Now let's try to build a Docker image and deploy it to your machine.
 * Docker
 * GitHub account
 
+## Install Docker on Ubuntu
+
+Please follow this official doc: https://docs.docker.com/engine/install/ubuntu/#installation-methods
+
 ## Docker Image Build Pipeline
 
 ```Groovy
