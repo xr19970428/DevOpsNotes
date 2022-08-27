@@ -6,7 +6,6 @@ In this example, you use a Node.js modules to write one item in a DynamoDB table
 
 -   [putItem](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#putItem-property)
 
-
 ## Create a DynamoDB table
 
 1. In AWS console, go to "DynamoDB" service.
@@ -15,6 +14,11 @@ In this example, you use a Node.js modules to write one item in a DynamoDB table
 	- Partition key: name
 	- keep the partition key type as "String"
 	- click "Create table"
+
+## Enable writing to DynamoDB in your Lambda permission
+
+1. Go to your Lambda function, under "Configuration" - "Permission", click the IAM role associated to your Lambda function.
+2. Add "AmazonDynamoDBFullAccess" policy to the IAM role.
 
 ## Write to DynamoDB in your Lambda function
 
