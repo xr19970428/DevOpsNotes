@@ -2,8 +2,6 @@
 This demos the most common usage of packer - build AMI (Amazon Machine Image)
 
 # Pre-requisite:
-
-## Install docker, ansible
 ## Install packer
 
 https://www.packer.io/docs/install
@@ -71,4 +69,4 @@ EOF
 
 # Reference
 
-[Packer tutorial - AWS](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli?in=packer/aws-get-started}
+[Packer tutorial - AWS](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli?in=packer/aws-get-started)
